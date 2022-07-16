@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: sp-dx-sde
+  description: the SDE team of DexEX
+spec:
+  type: team
+  profile:
+    displayName: SDE team
+  children: []
