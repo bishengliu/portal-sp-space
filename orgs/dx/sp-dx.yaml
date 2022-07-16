@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: sp-dx
+  description: dev-ex of service platform
+spec:
+  type: sub-unit
+  profile:
+    displayName: DevEx
+  children: [sp-dx-sde]

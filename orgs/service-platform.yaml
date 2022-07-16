@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: service-platform
+  description: service platform org, sp
+spec:
+  type: service-platform
+  profile:
+    displayName: Service Platform
+  children: [sp-dx]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: service-platform-groups
+  description: A collection of all service platform groups
+spec:
+  targets:
+    - ./dx/sp-dx.yaml
+    - ./dx/sp-dx-sde.yaml
