@@ -2,9 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: sp-dx-sde
-  description: the SDE team of DexEX
+  description: DexEX (Service Platform)
 spec:
   type: team
   profile:
-    displayName: SDE team
+    displayName: the SDE team
   children: []

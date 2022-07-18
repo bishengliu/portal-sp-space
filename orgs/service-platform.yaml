@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: service-platform
-  description: service platform org, sp
+  description: service platform (sp)
 spec:
   type: service-platform
   profile:
